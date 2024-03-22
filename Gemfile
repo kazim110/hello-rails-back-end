@@ -10,6 +10,8 @@ gem 'rubocop', '>= 1.0', '< 2.0'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 1.1'
 
+gem 'rack-cors'
+
 # gem irb now depends on psych, but version 5 will not bundle currently
 gem 'psych', '~> 4'
 
