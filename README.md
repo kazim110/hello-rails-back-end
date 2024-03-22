@@ -75,7 +75,7 @@ git clone https://github.com/kazim110/hello-rails-back-end.git
 Install all necessary dependencies listed in the `Gemfile`.
 
 ```sh
-npm install
+bundle install
 ```
 
 ### Usage
@@ -83,7 +83,7 @@ npm install
 To run the project, navigate to the project directory and execute the following command:
 
 ```sh
-npm start
+rails server
 ```
 
 ### Run tests
@@ -103,8 +103,12 @@ npx stylelint "**/*.{css,scss}"
 ```
 
 ```sh
-npx eslint "**/*.{js,jsx}"
+rubocop
 ```
+
+## React Frontend
+
+For the frontend of this project, we have built a React application that consumes this Rails API. You can find the React app repository [React Redux Front-end](https://github.com/kazim110/hello-react-front-end.git).
 
 ### Deployment
 
